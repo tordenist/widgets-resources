@@ -1,0 +1,89 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - lerna > @lerna/changed > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > webpack-merge > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > react-native > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > node-sass > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > enzyme > cheerio > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > react-native > inquirer > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > webpack-dev-server > http-proxy-middleware > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > @wdio/selenium-standalone-service > selenium-standalone > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > react-native > @react-native-community/cli > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/parse > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > node-sass > sass-graph > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > react-native > @react-native-community/cli > inquirer > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/parse > conventional-commits-parser > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > node-sass > gaze > globule > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > lodash:
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > @wdio/local-runner > @wdio/runner > gaze > globule > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > lodash:
+        patched: '2019-09-12T11:41:16.002Z'
+    - lerna > @lerna/changed > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > lodash:
+        patched: '2019-09-12T11:41:16.002Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-recommended-bump > conventional-commits-parser > lodash:
+        patched: '2019-09-12T11:41:16.002Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2019-09-12T11:41:16.002Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > eslint > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > react-native > @react-native-community/cli > metro > react-transform-hmr > react-proxy > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-recommended-bump > conventional-commits-parser > lodash:
+        patched: '2019-09-12T11:41:16.002Z'
+    - lerna > @lerna/changed > @lerna/version > @lerna/conventional-commits > conventional-recommended-bump > conventional-commits-parser > lodash:
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > react-native > metro-react-native-babel-transformer > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2019-09-12T11:41:16.002Z'
+    - lerna > @lerna/changed > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2019-09-12T11:41:16.002Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > react-native > @react-native-community/cli > metro > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > react-native > @react-native-community/cli > metro-react-native-babel-transformer > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > react-native > @react-native-community/cli > metro-config > metro > react-transform-hmr > react-proxy > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > react-native > @react-native-community/cli > metro-config > metro > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > jest > jest-cli > @jest/core > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+    - '@mendix/pluggable-widgets-tools > jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2019-09-12T11:41:16.002Z'
+  'npm:minimatch:20160620':
+    - zip-folder > archiver > glob > minimatch:
+        patched: '2019-09-12T11:41:16.002Z'
